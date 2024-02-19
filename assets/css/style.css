@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'raleway';
+    src: url('assets/font/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CSS HEADER */
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #782221;
+    width: 1160px;
+ }
+
+ /* IMAGE */
+.container__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__img img {
+    width: 13em;
+    height: 13em;
+    margin: 2em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 1em 3em 5em rgba(0, 0, 0, 0.8);
+}
+
+.container__img img:hover {
+    cursor:zoom-in;
+}
+/* END IMAGE */
+
+
+/* TITLE */
+.container__title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__title h1 {
+    font-family: 'raleway', sans-serif;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.container__title p {
+    font-family: 'lato', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+/* END TITLE */
+
+/* ADDRESS */
+.container__address {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c1d27;
+    color: #fff;
+    padding: 0 2em 0 2em;
+}
+
+.container__address a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.container__address a:hover {
+    text-decoration: underline;
+}
+/* END ADDRESS */
+
+/* END CSS HEADER */
+
+
+/* CSS MAIN */
+.container__box {
+    display: flex;
+    border-right: 3px solid #782221;
+}
+
+/* CSS MAIN LEFT */
+.container__box--left {
+    background: #782221;
+    width: 33%;
+}
+
+.container__box--left h2 {
+    background: #dbc2a4;
+    width: 90%;
+    padding-left: 1.1em;
+    margin-top: 0.6em;
+    font-family: 'raleway', sans-serif;
+}
+
+.container__box--left p {
+    text-align: justify;
+    margin: 1.2em 0 2em 0;
+    margin-top: 1.2em;
+    width: 90%;
+    padding-left: 1.5em;
+    font-size: 1.1em;
+    text-indent: 2.5em;
+    color:#fff;
+    font-family: 'lato', sans-serif;
+}
+
+.container__box--left ul {
+    color: #fff;
+    margin: 1.2em 0 2em 1.2em;
+    padding-left: 1.5em;
+    font-size: 1.1em;
+    font-family: 'lato', sans-serif;
+}
+/* END CSS MAIN LEFT */
+
+
+/* CSS MAIN RIGHT */
+.container__box--right {
+    padding: 0.7em 0 0 2em;
+    background: #fff;
+    width: 67%;
+}
+
+.container__box--right h2 {
+    background: #dbc2a4;
+    width: 98%;
+    padding-left: 0.2em;
+    border-left: 0.3em solid #782221;
+    font-family: 'raleway', sans-serif;
+}
+
+.container__box--right h3 {
+    font-family: 'raleway', sans-serif;
+}
+
+.container__box--right p {
+    text-align: justify;
+    margin: 1.2em 0 1.2em 0;
+    font-size: 1.1em;
+    font-family: 'lato', sans-serif;
+}
+
+.container__box--right ul {
+    font-size: 1.1em;
+    font-family: 'lato', sans-serif;
+    margin: 0 0 1.2em 2.4em;
+}
+
+.container__box--right--professionnal:hover,
+.container__box--right--diplome:hover,
+.container__box--right--skill:hover {
+    border-right: 0.3em solid #782221;
+    margin-right: 0.9em;
+}
+/* END CSS MAIN RIGHT */
+
+/* END CSS MAIN */
+
+
+/* CSS FOOTER */
+.container__icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.3em;
+}
+
+.container__icons a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.container__icons--twitter {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.container__icons a img {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.container__icons a img:hover {
+    opacity:0.8;
+}
+
+.container__copyright p {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 1.2em;
+    color: #fff;
+    font-family: 'lato', sans-serif;
+}   
+/* END CSS FOOTER */
