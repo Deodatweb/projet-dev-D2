@@ -102,18 +102,18 @@ address a:hover {
 
 
 /* CSS MAIN */
-.container__box {
+main .container section {
     display: flex;
     border-right: 3px solid #782221;
 }
 
 /* CSS MAIN LEFT */
-.container__box--left {
+.container__left {
     background: #782221;
     width: 33%;
 }
 
-.container__box--left h2 {
+.container__left h2 {
     background: #dbc2a4;
     width: 90%;
     padding-left: 1.1em;
@@ -121,7 +121,7 @@ address a:hover {
     font-family: 'raleway', sans-serif;
 }
 
-.container__box--left p {
+.container__left p {
     text-align: justify;
     margin: 1.2em 0 2em 0;
     margin-top: 1.2em;
@@ -133,7 +133,7 @@ address a:hover {
     font-family: 'lato', sans-serif;
 }
 
-.container__box--left ul {
+.container__left ul {
     color: #fff;
     margin: 1.2em 0 2em 1.2em;
     padding-left: 1.5em;
@@ -144,13 +144,13 @@ address a:hover {
 
 
 /* CSS MAIN RIGHT */
-.container__box--right {
+.container__right {
     padding: 0.7em 0 0 2em;
     background: #fff;
     width: 67%;
 }
 
-.container__box--right h2 {
+.container__right h2 {
     background: #dbc2a4;
     width: 98%;
     padding-left: 0.2em;
@@ -158,22 +158,22 @@ address a:hover {
     font-family: 'raleway', sans-serif;
 }
 
-.container__box--right h3 {
+.container__right h3 {
     font-family: 'raleway', sans-serif;
 }
 
-.container__box--right p {
+.container__right p {
     font-size: 1.1em;
     font-family: 'lato', sans-serif;
 }
 
-.container__box--right ul {
+.container__right ul {
     font-size: 1.1em;
     font-family: 'lato', sans-serif;
     margin: 0 0 1.2em 2.4em;
 }
 
-.container__box--right article:hover, .container__box--right--skills:hover{
+.container__right article:hover, .container__right--skills:hover{
     border-right: 0.3em solid #782221;
     margin-right: 0.9em;
 }
