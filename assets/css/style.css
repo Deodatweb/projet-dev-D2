@@ -77,7 +77,7 @@ header .container p {
 
 /* ADDRESS */
 address {
-    height: 15vh;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,7 +90,6 @@ address a {
     font-family: 'lato', sans-serif;
     text-decoration: none;
     font-style: italic;
-    font-size: 1.2em;
     color: #fff;
 }
 
@@ -174,7 +173,7 @@ address a:hover {
     margin: 0 0 1.2em 2.4em;
 }
 
-.container__box--right article:hover, .container__box--right--diplome:hover, .container__box--right--skills:hover{
+.container__box--right article:hover, .container__box--right--skills:hover{
     border-right: 0.3em solid #782221;
     margin-right: 0.9em;
 }
