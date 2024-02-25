@@ -163,8 +163,6 @@ header, main, footer {
 }
 
 .container__box--right p {
-    text-align: justify;
-    margin: 1.2em 0 1.2em 0;
     font-size: 1.1em;
     font-family: 'lato', sans-serif;
 }
@@ -175,9 +173,7 @@ header, main, footer {
     margin: 0 0 1.2em 2.4em;
 }
 
-.container__box--right--professionnal:hover,
-.container__box--right--diplome:hover,
-.container__box--right--skill:hover {
+.container__box--right article:hover, .container__box--right--diplome:hover, .container__box--right--skills:hover{
     border-right: 0.3em solid #782221;
     margin-right: 0.9em;
 }
@@ -190,18 +186,7 @@ header, main, footer {
 .container__icons {
     display: flex;
     justify-content: center;
-    padding-top: 1.3em;
-}
-
-.container__icons a {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-}
-
-.container__icons--twitter {
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+    padding-top: 1.2em;
 }
 
 .container__icons a img {
@@ -209,12 +194,17 @@ header, main, footer {
     height: 2.5em;
 }
 
+.container__icons a:nth-of-type(2) img{
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
 .container__icons a img:hover {
     opacity:0.8;
 }
 
-.container__copyright p {
-    display:flex;
+footer p{
+    display: flex;
     justify-content: center;
     padding-bottom: 1.2em;
     color: #fff;
